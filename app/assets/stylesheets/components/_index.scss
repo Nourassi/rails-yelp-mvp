@@ -1,0 +1,26 @@
+@import "alert";
+@import "avatars";
+@import "badges";
+
+tr:hover {
+  background-color: #ffff99;
+}
+
+.btn{
+  a{
+    color: white
+  }
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 30px 0;
+}
+
+td {
+  padding: 5px 0;
+}
+
+div{
+  padding: 5px
+}
