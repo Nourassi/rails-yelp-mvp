@@ -8,19 +8,29 @@ tr:hover {
 
 .btn{
   a{
-    color: white
+    color: white;
   }
 }
 
 table {
   border-collapse: separate;
-  border-spacing: 30px 0;
+  border-spacing: 40px 0;
 }
 
 td {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 div{
-  padding: 5px
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.dat-one{
+  margin-left: 550px;
+  margin-bottom: 50px;
 }

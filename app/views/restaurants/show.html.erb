@@ -3,7 +3,7 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "lewagon.png" %>
   <% end %>
 
   <!-- Right Navigation -->
@@ -61,9 +61,9 @@
   </div>
 </div>
 
-<h2>
+<h1>
 <strong><%= @restaurant.name %></strong>
-</h2>
+</h1>
 
 <h4>
   <strong>Address:</strong>
@@ -80,8 +80,14 @@
   <%= @restaurant.category %>
 </h4>
 
-<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
-<%= link_to 'Back', restaurants_path %>
+
+<div class="btn btn-warning">
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %>
+</div>
+
+<div class="btn btn-primary">
+  <%= link_to 'Back', restaurants_path %>
+</div>
 
 <h3> Reviews </h3>
 

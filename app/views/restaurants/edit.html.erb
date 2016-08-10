@@ -1,7 +1,7 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "lewagon.png" %>
   <% end %>
 
   <!-- Right Navigation -->
@@ -63,6 +63,11 @@
 
 <%= render 'form', restaurant: @restaurant %>
 
-<%= link_to 'Show', @restaurant %>
-<%= link_to 'Back', restaurants_path %>
+<div class="btn btn-info">
+  <%= link_to 'Show', @restaurant %>
+</div>
+
+<div class="btn btn-primary">
+  <%= link_to 'Back', restaurants_path %>
+</div>
 
